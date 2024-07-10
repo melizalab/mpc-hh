@@ -1,0 +1,19 @@
+Name:
+  sim type: I
+Injected Current:
+  input scaling: 1.8
+  tau_inj: 0.05
+Noise Current:
+  snr: 5
+  tau_noise: 10
+  g_syn_max: 1
+  spiker_fr: 20
+Time:
+  t0: 0
+  tn: 5000
+  dt: 0.02
+DSR: 5
+Gap Junction:
+  g: -0.5
+  input scaling: 1
+  tau: 0.01
