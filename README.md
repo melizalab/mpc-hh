@@ -7,10 +7,11 @@ by Clark et al (2022). We used two dynamically distinct CS models (Type-I, Type-
 
 This README will outline how reproduce our results. Almost all scripts used command line arguments to streamline iterating alternative parameter values.
 
-**IMPORTANT** Some users may experience an error when trying to install `pyspike`. One solution is to get the clone the source code and do a local setup:
+**IMPORTANT** Some users may experience an error when trying to install `pyspike`. One solution is to clone the source code and do a local setup:
 - `git clone https://github.com/mariomulansky/PySpike.git`
 - `cd PySpike`
 - `python setup.py build_ext --inplace`
+
 Then add the path to `PySpike` to the Python environment variable (e.g. `sys.path.append(**path to PySpike**)`). These instructions are taken from the authors of `pyspike`
 and can be found here `https://mariomulansky.github.io/PySpike/`.
 
