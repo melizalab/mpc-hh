@@ -61,5 +61,5 @@ data = {'Train':{
             'I_inj':I_inj_val,
             'I_noise':I_noise_val}
         }
-file_path = f'{args.out_path}/type_{sim_type}_low_noise'
+file_path = f'{args.out_path}/type_{sim_type}'
 np.save(file_path,data)
