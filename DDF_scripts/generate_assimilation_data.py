@@ -44,7 +44,9 @@ I_noise_val = scale_noise_to_SNR(I_inj_val, I_noise_val, snr) # Validation
 # ================
 # Stimulate Neuron
 # ================
+print('Constructing Training Data...')
 V_train = stimulate(t,I_inj_train,I_noise_train,args.config_file,monitor=True)
+print('Constructing Validation Data...')
 V_val = stimulate(t,I_inj_val,I_noise_val,args.config_file,monitor=True)
 
 # =========
