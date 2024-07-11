@@ -4,6 +4,7 @@ Source_File.zip
 Source_file
 open_loop_control.sh
 p_control_batch.sh
+mpc_control_batch.sh
 test.py
 saved_models
 neuron_scripts/V_ref_gj.npy
@@ -22,3 +23,6 @@ open_loop_scripts/null_spikes_I.npy
 open_loop_scripts/null_spikes_II.npy
 type_I_ref.npy
 type_II_ref.npy
+assimilation_data
+assim_data
+
