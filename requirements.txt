@@ -44,3 +44,4 @@ typing_extensions==4.12.2
 tzdata==2024.1
 wcwidth==0.2.13
 zipp==3.19.2
+pyspike==0.8.0
